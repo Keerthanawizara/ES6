@@ -1,0 +1,18 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "keerthi",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "mongodb": "^3.1.13",
+    "mongojs": "^2.6.0",
+    "nodemailer": "^5.1.1",
+    "uuid": "^3.3.2"
+  }
+}
