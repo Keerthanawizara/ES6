@@ -1,6 +1,8 @@
 const hapi = require('hapi')
 //const routes = require('./src/users/userRoutes')
-require('./src/CsvFile/dataConvert').FilePath();
+//require('./src/CsvFile/dataConvert').FilePath();
+require('./src/dbConfig')
+//const CsvFile = require('./src/CsvFile/dataConvert.js')
 
 const server = hapi.server({
     port: 4500,

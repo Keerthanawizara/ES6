@@ -4,6 +4,6 @@ console.log("mongodb connected successfully");
 module.exports = {
     MongoClient: MongoClient,
     url: url,
-    db: 'test',
-    collection: 'testList'
+    db: 'mongo',
+    collection: 'propertymodels'
 }

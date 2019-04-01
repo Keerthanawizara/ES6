@@ -13,6 +13,7 @@
     "hapi": "^18.1.0",
     "mongodb": "^3.1.13",
     "mongojs": "^2.6.0",
+    "mongoose": "^5.4.20",
     "nodemailer": "^5.1.1",
     "uuid": "^3.3.2"
   }
