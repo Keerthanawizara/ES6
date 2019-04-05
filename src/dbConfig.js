@@ -5,5 +5,15 @@ module.exports = {
     MongoClient: MongoClient,
     url: url,
     db: 'mongo',
-    collection: 'propertymodels'
+   // collection: 'propertydatacollection'
+    collection: [
+
+    {
+     property:'propertydatacollections'
+     file:'fileuploadcollections'
+
+   }
+
+    ]
+
 }

@@ -19,6 +19,11 @@ module.exports = [
     	method: 'POST',
     	path: '/propertyDetail',
     	handler: Controller.propertyDetail
+    },
+    {
+        method: 'POST',
+        path: '/propertyFileUpload',
+        handler: Controller.propertyFileUpload
     }
 
 

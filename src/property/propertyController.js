@@ -137,6 +137,36 @@ const propertyRecord = (req,h) => {
 
     })
   }
+ const csvFilePath=('./property.csv')
+const csv=require('csvtojson')
+const db = mongojs(dbConfig.db)
+const FilePath=()=>{
+csv()
+.fromFile(req.)
+.then((jsonObj)=>{
+  db.collection(dbConfig.collection).insert(jsonObj);
+    //console.log(jsonObj);
+    /**
+     * [
+     *  {a:"1", b:"2", c:"3"},
+     *  {a:"4", b:"5". c:"6"}
+     * ]
+     */ 
+    })
+ }
+// Async / await usage
+const jsonArray= csv().fromFile(csvFilePath);
+FilePath()
+ 
+const propertyFileUpload = (req,h) =>{
+  const db = mongojs(dbConfig.db)
+  const Data = req.payload
+  return new Promise((resolve, reject)=> {
+    
+  })
+}
+   
+
 
 
 
